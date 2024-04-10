@@ -1,0 +1,18 @@
+When we start this project intially it will triggered @dispatcher.message_handler() method 
+main_bot () this is asynclt to handle the incoming message_handler
+after that we know it will get the input from users then bot generate the content
+So, main_bot() is the method that gets called when a new message is received, triggered by the dispatcher.message_handler()
+
+executor.start_polling() function is typically used in Python Telegram bot development to start polling the Telegram Bot API 
+
+@dispatcher.message_handler()
+decorator in python
+
+dispatcher.message_handler() is a decorator provided by the aiogram lib
+
+This means that whenever the bot receives a new message from a user, the main_bot() function will be called to handle that message.
+
+async def main_bot(message: types.Message):
+
+    The function takes one parameter named message, which is of type types.Message. 
+    In the context of the aiogram library, types.Message represents a message sent by a user to the bot.
