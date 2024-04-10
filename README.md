@@ -7,8 +7,8 @@
     store teligram bot token="****************:*********************"
 # Install files
     pip install -r requirements.txt
-# Telegram bot toke
-    search BotFather
+# Telegram bot token
+    search BotFather in tele app
     create bot like openai_bot
     copy the token store it .env file
     everything is ready run the project python my_bot.py
